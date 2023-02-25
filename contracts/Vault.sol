@@ -1,13 +1,13 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.17;
 
-import "./ERC20.sol";
+import "./ERC20Permit.sol";
 
 contract Vault {
-    ERC20 public immutable token;
+    ERC20Permit public immutable token;
 
     constructor(address _token) {
-        token = ERC20(_token);
+        token = ERC20Permit(_token);
     }
 
     function deposite(uint amount) external {
