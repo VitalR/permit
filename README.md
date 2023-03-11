@@ -1,9 +1,9 @@
-# ERC20 with Permit - Sample Project
+## ERC20 with Permit - sample project
+<hr>
 
-This project demonstrates permit functionality(EIP-2612) for ERC20 via frontend and on-chain interactions.
+This project demonstrates permit functionality (EIP-2612) for ERC20 via frontend and on-chain interactions.
 
 ```shell
-clone repo
-npm install
-npx hardhat test
+yarn
+yarn test
 ```
